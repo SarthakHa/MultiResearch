@@ -81,7 +81,7 @@ valid = matches > -1
 mconf = conf[valid]
 mkpts0 = kpts0[valid]
 mkpts1 = kpts1[matches[valid]]
-color = cm.jet(mconf)
+color = cm.Blues(mconf)
 text = [
     'SuperGlue',
     'Keypoints: {}:{}'.format(len(kpts0), len(kpts1)),
